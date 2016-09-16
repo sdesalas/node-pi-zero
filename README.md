@@ -1,3 +1,5 @@
+![Node Pi Zero](https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Raspberry_Pi_Logo.svg/190px-Raspberry_Pi_Logo.svg.png)
+
 # node-pi-zero
 
 Copy-paste the lines below to install node in the Raspberry Pi Zero
