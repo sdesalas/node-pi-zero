@@ -2,7 +2,7 @@
 # By Steven de Salas
 
 # Based on script by Richard Stanley @ https://github.com/audstanley/Node-MongoDb-Pi/
-# This will work specifically for a RaspberryPi Zero.
+# This is for a RaspberryPi Zero but should work across all models.
 
 # Creates directory for downloads, and downloads node 4.0.0
 cd ~/ && mkdir temp && cd temp;
