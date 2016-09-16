@@ -31,4 +31,4 @@ $ node -v
 $ npm -v
 ```
 
-And last but not least, remember that [friends dont let friends pipe to sh](https://www.seancassidy.me/dont-pipe-to-your-shell.html).
+And remember, [friends dont let friends pipe to sh](https://www.seancassidy.me/dont-pipe-to-your-shell.html).
