@@ -1,7 +1,7 @@
 #!/bin/bash
 # By Steven de Salas
 
-# Special Thanks to Richard Stanley @ https://github.com/audstanley/Node-MongoDb-Pi/
+# Based on script by Richard Stanley @ https://github.com/audstanley/Node-MongoDb-Pi/
 # This will work specifically for a RaspberryPi Zero.
 
 # Creates directory for downloads, and downloads node 4.0.0
