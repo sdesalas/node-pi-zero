@@ -12,6 +12,12 @@ They are re-runnable so you can upgrade or downgrade just by running the command
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v4.0.0.sh | bash
 ```
 
+## v5.0.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v5.0.0.sh | bash
+```
+
 ## v6.3.1
 
 ```sh
