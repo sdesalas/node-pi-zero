@@ -10,8 +10,19 @@ wget https://nodejs.org/dist/v6.3.1/node-v6.3.1-linux-armv6l.tar.gz;
 tar -xzf node-v6.3.1-linux-armv6l.tar.gz;
 # Remove the tar after extracing it.
 sudo rm node-v6.3.1-linux-armv6l.tar.gz;
+# This line will clear existing nodejs
+sudo rm -rf /opt/nodejs
 # This next line will copy Node over to the appropriate folder.
 sudo mv node-v6.3.1-linux-armv6l /opt/nodejs/;
+# Remove existing symlinks
+sudo unlink /usr/bin/node;
+sudo unlink /usr/sbin/node;
+sudo unlink /sbin/node;
+sudo unlink /usr/local/bin/node;
+sudo unlink /usr/bin/npm;
+sudo unlink /usr/sbin/npm;
+sudo unlink /sbin/npm;
+sudo unlink /usr/local/bin/npm;
 # Create symlinks to node && npm
 sudo ln -s /opt/nodejs/bin/node /usr/bin/node;
 sudo ln -s /opt/nodejs/bin/node /usr/sbin/node;
