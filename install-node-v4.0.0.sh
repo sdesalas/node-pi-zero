@@ -11,7 +11,7 @@ tar -xzf node-v4.0.0-linux-armv6l.tar.gz;
 # Remove the tar after extracing it.
 sudo rm node-v4.0.0-linux-armv6l.tar.gz;
 # This line will clear existing nodejs
-sudo rm -rf /opt/nodejs
+sudo rm -rf /opt/nodejs;
 # This next line will copy Node over to the appropriate folder.
 sudo mv node-v4.0.0-linux-armv6l /opt/nodejs/;
 # Remove existing symlinks
