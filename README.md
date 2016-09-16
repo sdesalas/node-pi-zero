@@ -16,6 +16,6 @@ chmod +x install-node-v4.0.0.sh
 
 ```sh
 wget https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.3.1.sh
-chmod +x install-node-v4.0.0.sh
-./install-node-v4.0.0.sh
+chmod +x install-node-v6.3.1.sh
+./install-node-v6.3.1.sh
 ```
