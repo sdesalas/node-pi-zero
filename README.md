@@ -24,9 +24,11 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.3.1.sh | bash
 ```
 
-When finished just check the node and npm versions
+When finished just check the node and npm versions.
 
 ```sh
 $ node -v
 $ npm -v
 ```
+
+And last but not least, remember that [friends dont let friends pipe to sh](https://www.seancassidy.me/dont-pipe-to-your-shell.html).
