@@ -18,10 +18,16 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v5.0.0.sh | bash
 ```
 
-## v6.3.1
+## v6.0.0
 
 ```sh
-$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.3.1.sh | bash
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.0.0.sh | bash
+```
+
+## v6.9.1
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.9.1.sh | bash
 ```
 
 When finished just check the node and npm versions.
