@@ -12,13 +12,37 @@ They are re-runnable so you can upgrade or downgrade just by running the command
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v4.0.0.sh | bash
 ```
 
+## v4.4.1
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v4.4.1.sh | bash
+```
+
+## v4.7.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v4.7.0.sh | bash
+```
+
 ## v5.0.0
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v5.0.0.sh | bash
 ```
 
+## v5.12.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v5.12.0.sh | bash
+```
+
 ## v6.0.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.0.0.sh | bash
+```
+
+## v6.4.0
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.0.0.sh | bash
@@ -28,6 +52,12 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.9.1.sh | bash
+```
+
+## v7.2.1
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v7.2.1.sh | bash
 ```
 
 When finished just check the node and npm versions.
