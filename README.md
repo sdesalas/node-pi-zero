@@ -1,4 +1,4 @@
-![Node Pi Zero](https://raw.githubusercontent.com/sdesalas/node-pi-zero/4ff1e0f224364ae5792893a20dcd4fb6e2d87429/pizero.png)
+![Node Pi Zero](https://raw.githubusercontent.com/sdesalas/node-pi-zero/3440cc7c0540d72ef65852b5fea9eca87a95cef2/pizero.png)
 
 # node-pi-zero
 
