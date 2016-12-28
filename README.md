@@ -1,4 +1,4 @@
-![Node Pi Zero](https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Raspberry_Pi_Logo.svg/190px-Raspberry_Pi_Logo.svg.png)
+![Node Pi Zero](https://raw.githubusercontent.com/sdesalas/node-pi-zero/4ff1e0f224364ae5792893a20dcd4fb6e2d87429/pizero.png)
 
 # node-pi-zero
 
