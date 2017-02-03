@@ -45,7 +45,7 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 ## v6.4.0
 
 ```sh
-$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.0.0.sh | bash
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.4.0.sh | bash
 ```
 
 ## v6.9.1
