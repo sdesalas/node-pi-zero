@@ -60,6 +60,12 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v7.2.1.sh | bash
 ```
 
+## v7.7.1
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v7.7.1.sh | bash
+```
+
 When finished just check the node and npm versions.
 
 ```sh
