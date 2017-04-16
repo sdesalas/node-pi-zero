@@ -29,7 +29,7 @@ gulp.task('generate', function() {
       });
       req.end();
     }, function() {
-      validVersions.sort().forEach(function(version) {
+      validVersions.sort().reverse().forEach(function(version) {
         gutil.log("Writing " + version + " to file")
         fs.writeFile("./install-node-v" + version + ".sh", template.replace("@@VERSION@@", version).replace("@@ARCH@@", architecture).replace("@@MIRROR@@", GetNodeVersions.NODEJS_MIRROR))
         fs.appendFileSync("README.md", ["## v" + version, "", "```sh", "$ wget -O - https://raw.githubusercontent.com/" + username + "/node-pi-zero/master/install-node-v" + version + ".sh | bash", "```", ""].join("\n"))
