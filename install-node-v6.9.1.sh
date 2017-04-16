@@ -1,21 +1,26 @@
 #!/bin/bash
 # By Steven de Salas
+# Generation code by David Gray
 
 # Based on script by Richard Stanley @ https://github.com/audstanley/Node-MongoDb-Pi/
 # This is for a RaspberryPi Zero but should work across all models.
 
-VERSION=v6.9.1;
+# Parameters delimited with @@ will be replaced when the generation script is run
+
+VERSION=6.9.1;
+ARCH=armv6l;
+MIRROR=https://nodejs.org/dist/;
 
 # Creates directory for downloads, and downloads node
 cd ~/ && mkdir temp && cd temp;
-wget https://nodejs.org/dist/$VERSION/node-$VERSION-linux-armv6l.tar.gz;
-tar -xzf node-$VERSION-linux-armv6l.tar.gz;
+wget $MIRROR$VERSION/node-$VERSION-linux-$ARCH.tar.gz;
+tar -xzf node-$VERSION-linux-$ARCH.tar.gz;
 # Remove the tar after extracing it.
-sudo rm node-$VERSION-linux-armv6l.tar.gz;
+sudo rm node-$VERSION-linux-$ARCH.tar.gz;
 # This line will clear existing nodejs
 sudo rm -rf /opt/nodejs;
 # This next line will copy Node over to the appropriate folder.
-sudo mv node-$VERSION-linux-armv6l /opt/nodejs/;
+sudo mv node-$VERSION-linux-$ARCH /opt/nodejs/;
 # Remove existing symlinks
 sudo unlink /usr/bin/node;
 sudo unlink /usr/sbin/node;
@@ -34,5 +39,3 @@ sudo ln -s /opt/nodejs/bin/npm /usr/bin/npm;
 sudo ln -s /opt/nodejs/bin/npm /usr/sbin/npm;
 sudo ln -s /opt/nodejs/bin/npm /sbin/npm;
 sudo ln -s /opt/nodejs/bin/npm /usr/local/bin/npm;
-
-
