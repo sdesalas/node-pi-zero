@@ -11,8 +11,8 @@ var GetNodeVersions = require("get-node-versions").GetNodeVersions
 
 gulp.task('generate', function() {
   var validVersions = []
-  var template = fs.readFileSync("install-node-template.txt", "utf8")
-  fs.writeFileSync("README.md", fs.readFileSync("readme-template.txt", "utf8"))
+  var template = fs.readFileSync("./templates/install-node-template.txt", "utf8")
+  fs.writeFileSync("README.md", fs.readFileSync("./templates/readme-template.txt", "utf8"))
   gutil.log("Requesting all node versions..")
   GetNodeVersions.parse(["all"]).then(function(versions) {
     async.map(versions, function(version, next) {
