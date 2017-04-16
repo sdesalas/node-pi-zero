@@ -18,3 +18,9 @@ And remember, [friends don't let friends pipe to sh](https://www.seancassidy.me/
 ## Re-generating this list
 
 To regenerate this list, run `gulp generate`
+
+## Latest
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-latest.sh | bash
+```
