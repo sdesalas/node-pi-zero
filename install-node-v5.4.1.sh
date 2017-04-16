@@ -7,7 +7,7 @@
 
 # Parameters delimited with @@ will be replaced when the generation script is run
 
-VERSION=v5.4.1;
+VERSION=5.4.1;
 ARCH=armv6l;
 MIRROR=https://nodejs.org/dist/;
 
