@@ -17,7 +17,7 @@ And remember, [friends don't let friends pipe to sh](https://www.seancassidy.me/
 
 ## Re-generating this list
 
-To regenerate this list, clone this repo, run `npm install` to install dependencies, then `gulp generate` to recreate these files
+To regenerate this list, run `gulp generate`
 ## v4.0.0
 
 ```sh
