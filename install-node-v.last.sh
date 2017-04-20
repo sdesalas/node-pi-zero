@@ -10,9 +10,9 @@ PI_ARM_VERSION=arm$(cat /proc/cpuinfo | egrep "v[0-9]l" -o | tail -1);
 #get latest nodejs version from node website
 #read the first version that matches the arm platform
 VERSION=$(curl https://nodejs.org/dist/index.json | 
-egrep '{"version":"v([0-9]+\.?){3}"[^{]*"linux-$PI_ARM_VERSION' -o | 
+egrep "{\"version\":\"v([0-9]+\.?){3}\"[^{]*\"linux-"$PI_ARM_VERSION"" -o | 
 head -n 1 | 
-egrep 'v([0-9]+\.?){3}' -o
+egrep 'v([0-9]+\.?){3}' -o 
 );
 
 # Creates directory for downloads, and downloads node
