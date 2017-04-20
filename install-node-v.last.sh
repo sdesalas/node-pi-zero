@@ -5,7 +5,7 @@
 # Based on script by Richard Stanley @ https://github.com/audstanley/Node-MongoDb-Pi/
 
 #get pi ARM version
-PI_ARM_VERSION=arm$(cat /proc/cpuinfo | egrep "v[0-9]l" -o);
+PI_ARM_VERSION=arm$(cat /proc/cpuinfo | egrep "v[0-9]l" -o | tail -1);
 
 #get latest nodejs version from node website
 VERSION=$(curl https://nodejs.org/dist/ |
