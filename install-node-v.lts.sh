@@ -10,7 +10,7 @@ PI_ARM_VERSION=$(uname -a | egrep 'armv[0-9]+l' -o);
 #get latest nodejs version from node website
 #read the first version that matches the arm platform
 VERSION=$(curl https://nodejs.org/dist/index.json | 
-egrep "{\"version\":\"v([0-9]+\.?){3}\"[^{]*\"linux-"$PI_ARM_VERSION"[^{]*lts=\"" -o | 
+egrep "{\"version\":\"v([0-9]+\.?){3}\"[^{]*\"linux-"$PI_ARM_VERSION"[^}]*lts\":\"" -o | 
 head -n 1 | 
 egrep 'v([0-9]+\.?){3}' -o 
 );
