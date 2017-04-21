@@ -5,19 +5,35 @@
 # Based on script by Richard Stanley @ https://github.com/audstanley/Node-MongoDb-Pi/
 
 #get pi ARM version
-PI_ARM_VERSION=$(uname -a | egrep 'armv[0-9]+l' -o);
+PI_ARM_VERSION=$(
+  uname -a | 
+  egrep 'armv[0-9]+l' -o
+);
 
 #get latest nodejs version from node website
 #read the first version that matches the arm platform
-VERSION=$(curl https://nodejs.org/dist/index.json | 
-egrep "{\"version\":\"v([0-9]+\.?){3}\"[^{]*\"linux-"$PI_ARM_VERSION"[^}]*lts\":\"" -o | 
-head -n 1 | 
-egrep 'v([0-9]+\.?){3}' -o 
+NODE_VERSION=$(
+  curl https://nodejs.org/dist/index.json | 
+  egrep "{\"version\":\"v([0-9]+\.?){3}\"[^{]*\"linux-"$PI_ARM_VERSION"[^}]*lts\":\"[^\"]+\"" -o |
+  head -n 1
+);
+
+#get the version
+VERSION=$(
+  echo $NODE_VERSION | 
+  egrep 'v([0-9]+\.?){3}' -o
+);
+
+#get lts version
+LTS_VERSION=$(echo $NODE_VERSION | 
+  egrep '"[^"]+"$' -o | 
+  egrep '[a-zA-Z]+' -o | 
+  tr '[:upper:]' '[:lower:]'
 );
 
 # Creates directory for downloads, and downloads node
 cd ~/ && mkdir temp && cd temp;
-wget https://nodejs.org/dist/$VERSION/node-$VERSION-linux-$PI_ARM_VERSION.tar.gz;
+wget https://nodejs.org/dist/latest-$LTS_VERSION/node-$VERSION-linux-$PI_ARM_VERSION.tar.gz;
 tar -xzf node-$VERSION-linux-$PI_ARM_VERSION.tar.gz;
 
 # Remove the tar after extracing it.
