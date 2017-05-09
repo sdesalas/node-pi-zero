@@ -22,6 +22,5 @@ To regenerate this list, run `gulp generate`
 ## Latest
 
 ```sh
-$ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-latest.sh | bash
+$ wget https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-latest.sh -O /tmp/install-node-latest.sh && source /tmp/install-node-latest.sh
 ```
-
