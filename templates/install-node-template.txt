@@ -7,9 +7,9 @@
 
 # Parameters delimited with @@ will be replaced when the generation script is run
 
-VERSION=v7.7.1;
-ARCH=armv6l;
-MIRROR=https://nodejs.org/dist/;
+VERSION=v@@VERSION@@;
+ARCH=@@ARCH@@;
+MIRROR=@@MIRROR@@;
 
 # Creates directory for downloads, and downloads node
 cd ~/ && mkdir temp && cd temp;

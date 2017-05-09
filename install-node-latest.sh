@@ -7,13 +7,13 @@
 
 # Parameters delimited with @@ will be replaced when the generation script is run
 
-VERSION=v7.7.1;
 ARCH=armv6l;
+VERSION="$(wget -q -O - https://nodejs.org/dist/latest/ | sed -n  's/.*\"node-\(.*\)-linux-armv6l.tar.gz\".*/\1/p')";
 MIRROR=https://nodejs.org/dist/;
 
 # Creates directory for downloads, and downloads node
 cd ~/ && mkdir temp && cd temp;
-wget ${MIRROR}$VERSION/node-$VERSION-linux-$ARCH.tar.gz;
+wget ${MIRROR}/latest/node-$VERSION-linux-$ARCH.tar.gz;
 tar -xzf node-$VERSION-linux-$ARCH.tar.gz;
 # Remove the tar after extracing it.
 sudo rm node-$VERSION-linux-$ARCH.tar.gz;
