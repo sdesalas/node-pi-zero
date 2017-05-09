@@ -89,6 +89,11 @@ $ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install
 ```sh
 $ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-v7.2.0.sh | bash
 ```
+## v7.10.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-v7.10.0.sh | bash
+```
 ## v7.1.0
 
 ```sh
@@ -183,6 +188,11 @@ $ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-v6.2.0.sh | bash
+```
+## v6.10.3
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-v6.10.3.sh | bash
 ```
 ## v6.10.2
 
@@ -303,6 +313,11 @@ $ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-v5.0.0.sh | bash
+```
+## v4.8.3
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/grayda/node-pi-zero/master/install-node-v4.8.3.sh | bash
 ```
 ## v4.8.2
 
