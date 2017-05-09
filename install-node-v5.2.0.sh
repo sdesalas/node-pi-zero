@@ -41,3 +41,4 @@ sudo ln -s /opt/nodejs/bin/npm /sbin/npm;
 sudo ln -s /opt/nodejs/bin/npm /usr/local/bin/npm;
 # Add bin to $PATH (so globally installed modules will work)
 echo "PATH=/opt/nodejs/bin:$PATH" >> ~/.bashrc
+export PATH=/opt/nodejs/bin:$PATH
