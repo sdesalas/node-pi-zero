@@ -72,6 +72,8 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v.last.sh | bash
 ```
 
+Looking for a specific version? The [following fork](https://github.com/Grayda/node-pi-zero) which has every version listed.
+
 When finished just check the node and npm versions.
 
 ```sh
