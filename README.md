@@ -87,9 +87,9 @@ $ node -v
 $ npm -v
 ```
 
-## Want to run global npm modules? (ie mocha, eslint, etc)
+## Using global npm modules? (ie mocha, eslint, etc)
 
-Add the following lines to the end of your `~/.profile` file:
+Add the following to the end of your `~/.profile` file:
 ```sh
 # Add support for node CLI tools
 export PATH=$PATH:/opt/nodejs/bin
