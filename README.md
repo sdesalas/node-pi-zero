@@ -108,6 +108,12 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v8.8.1.sh | bash
 ```
 
+## v9.0.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v9.0.0.sh | bash
+```
+
 ## v.lts
 
 ```sh
