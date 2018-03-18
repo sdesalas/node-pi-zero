@@ -126,6 +126,18 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v.last.sh | bash
 ```
 
+## Upgrade to latest version of node (with option to install if node is not already installed)
+
+```sh
+$ wget -qO - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/upgrade-node-latest.sh | bash
+```
+
+## Upgrade to latest LTS version of node (with option to install if node is not already installed)
+
+```sh
+$ wget -qO - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/upgrade-node-lts.sh | bash
+```
+
 Looking for a specific version? The [following fork](https://github.com/Grayda/node-pi-zero) which has every version listed.
 
 When finished just check the node and npm versions.
@@ -140,6 +152,11 @@ $ npm -v
 Add the following to the end of your `~/.profile` file:
 ```sh
 # Add support for node CLI tools
+export PATH=$PATH:/opt/nodejs/bin
+```
+
+As a second option (to enable node to be accessible to all users including root), create a file in `/etc/profile.d` called `nodepath.sh` with these contents:
+```sh
 export PATH=$PATH:/opt/nodejs/bin
 ```
 
