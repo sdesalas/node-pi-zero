@@ -55,5 +55,5 @@ if [ "$CURRENT_NODE_VERSION" != "$LATEST_LTS_VERSION" ]; then
     esac
   done
 else
-  echo "You have node $CURRENT_NODE_VERSION installed which is the latest LTS version."
+  echo "node $CURRENT_NODE_VERSION installed (latest LTS version available)"
 fi
