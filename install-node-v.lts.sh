@@ -33,7 +33,7 @@ LTS_VERSION=$(echo $NODE_VERSION |
 
 # Creates directory for downloads, and downloads node
 cd ~/ && mkdir temp && cd temp;
-wget https://nodejs.org/download/release/latest-$LTS_VERSION/node-$VERSION-linux-$PI_ARM_VERSION.tar.gz;
+wget https://nodejs.org/dist/latest-$LTS_VERSION/node-$VERSION-linux-$PI_ARM_VERSION.tar.gz;
 tar -xzf node-$VERSION-linux-$PI_ARM_VERSION.tar.gz;
 
 # Remove the tar after extracing it.
