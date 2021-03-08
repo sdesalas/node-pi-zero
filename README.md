@@ -6,6 +6,16 @@ Use the commands below to install node in the Raspberry Pi Zero.
 
 They are re-runnable so you can upgrade or downgrade just by running the command for each version.
 
+## Node in v12+: Experimental 
+
+As of Node v12, the [NodeJs project](https://github.com/nodejs/nodejs/) has stopped supporting the Raspberry Pi Zero's [ARM v6 chip](https://en.wikipedia.org/wiki/ARM11) and is now [classing it as "Experimental"](https://github.com/nodejs/build/issues/1677), so you can no longer download a tarball binary directly from them. "Experimental" status for Node.js is defined as:
+
+> Experimental: May not compile or test suite may not pass. The core team does not create releases for these platforms. Test failures on experimental platforms do not block releases. Contributions to improve support for these platforms are welcome.
+
+The install scripts here are using the [Unofficial Builds Project](https://github.com/nodejs/unofficial-builds/). For more info:
+
+https://raspberrypi.stackexchange.com/questions/111130/how-to-install-nodejs-v12-on-raspi-zero-armv6-not-available-for-download-anymor
+
 ## v4.0.0
 
 ```sh
@@ -186,25 +196,94 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v11.5.0.sh | bash
 ```
 
-## v.lts
+## v12.0.0
 
 ```sh
-$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v.lts.sh | bash
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.0.0.sh | bash
 ```
 
-## v.last
+## v12.7.0
 
 ```sh
-$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v.last.sh | bash
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.7.0.sh | bash
 ```
 
-Looking for a specific version? The [following fork](https://github.com/Grayda/node-pi-zero) which has every version listed.
-
-When finished just check the node and npm versions.
+## v12.13.0
 
 ```sh
-$ node -v
-$ npm -v
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.13.0.sh | bash
+```
+
+## v12.21.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.21.0.sh | bash
+```
+
+## v13.0.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v13.0.0.sh | bash
+```
+
+## v13.6.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v13.6.0.sh | bash
+```
+
+## v13.14.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v13.14.0.sh | bash
+```
+
+## v14.0.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.0.0.sh | bash
+```
+
+## v14.5.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.5.0.sh | bash
+```
+
+## v14.10.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.10.0.sh | bash
+```
+
+## v14.15.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.15.0.sh | bash
+```
+
+## v14.16.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.16.0.sh | bash
+```
+
+## v15.0.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v15.0.0.sh | bash
+```
+
+## v15.6.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v15.6.0.sh | bash
+```
+
+## v15.11.0
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v15.11.0.sh | bash
 ```
 
 ## Using global npm modules? (ie mocha, eslint, etc)
