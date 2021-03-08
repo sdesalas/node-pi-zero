@@ -196,91 +196,91 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v11.5.0.sh | bash
 ```
 
-## v12.0.0
+## v12.0.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.0.0.sh | bash
 ```
 
-## v12.7.0
+## v12.7.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.7.0.sh | bash
 ```
 
-## v12.13.0
+## v12.13.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.13.0.sh | bash
 ```
 
-## v12.21.0
+## v12.21.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.21.0.sh | bash
 ```
 
-## v13.0.0
+## v13.0.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v13.0.0.sh | bash
 ```
 
-## v13.6.0
+## v13.6.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v13.6.0.sh | bash
 ```
 
-## v13.14.0
+## v13.14.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v13.14.0.sh | bash
 ```
 
-## v14.0.0
+## v14.0.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.0.0.sh | bash
 ```
 
-## v14.5.0
+## v14.5.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.5.0.sh | bash
 ```
 
-## v14.10.0
+## v14.10.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.10.0.sh | bash
 ```
 
-## v14.15.0
+## v14.15.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.15.0.sh | bash
 ```
 
-## v14.16.0
+## v14.16.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.16.0.sh | bash
 ```
 
-## v15.0.0
+## v15.0.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v15.0.0.sh | bash
 ```
 
-## v15.6.0
+## v15.6.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v15.6.0.sh | bash
 ```
 
-## v15.11.0
+## v15.11.0 (Experimental)
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v15.11.0.sh | bash
