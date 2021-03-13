@@ -8,11 +8,13 @@ They are re-runnable so you can upgrade or downgrade just by running the command
 
 ## Node in v12+: Experimental 
 
-As of Node v12, the [NodeJs project](https://github.com/nodejs/nodejs/) has stopped supporting the Raspberry Pi Zero's [ARM v6 chip](https://en.wikipedia.org/wiki/ARM11) and is now [classing it as "Experimental"](https://github.com/nodejs/build/issues/1677), so you can no longer download a tarball binary directly from them. "Experimental" status for Node.js is defined as:
+As of Node v12, the [Node.js project](https://github.com/nodejs/node/) has stopped supporting the Raspberry Pi Zero's [ARM v6 chip](https://en.wikipedia.org/wiki/ARM11) and is now [classing it as "Experimental"](https://github.com/nodejs/build/issues/1677), so you can no longer download a tarball binary directly from the [main project](https://github.com/nodejs/node). The install scripts here are using the [Unofficial Builds Project](https://github.com/nodejs/unofficial-builds/) (run by the same team).
+
+"Experimental" status for Node.js is defined as:
 
 > Experimental: May not compile or test suite may not pass. The core team does not create releases for these platforms. Test failures on experimental platforms do not block releases. Contributions to improve support for these platforms are welcome.
 
-The install scripts here are using the [Unofficial Builds Project](https://github.com/nodejs/unofficial-builds/). For more info:
+For more info:
 
 https://raspberrypi.stackexchange.com/questions/111130/how-to-install-nodejs-v12-on-raspi-zero-armv6-not-available-for-download-anymor
 
