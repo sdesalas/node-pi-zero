@@ -25,6 +25,10 @@ sudo unlink /usr/bin/npm;
 sudo unlink /usr/sbin/npm;
 sudo unlink /sbin/npm;
 sudo unlink /usr/local/bin/npm;
+sudo unlink /usr/bin/npx;
+sudo unlink /usr/sbin/npx;
+sudo unlink /sbin/npx;
+sudo unlink /usr/local/bin/npx;
 # Create symlinks to node && npm
 sudo ln -s /opt/nodejs/bin/node /usr/bin/node;
 sudo ln -s /opt/nodejs/bin/node /usr/sbin/node;
