@@ -142,6 +142,12 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v8.10.0.sh | bash
 ```
 
+## v8.17.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v8.17.0.sh | bash
+```
+
 ## v9.0.0
 
 ```sh
@@ -184,6 +190,12 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v10.15.0.sh | bash
 ```
 
+## v10.24.1 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v10.24.1.sh | bash
+```
+
 ## v11.0.0
 
 ```sh
@@ -194,6 +206,12 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v11.5.0.sh | bash
+```
+
+## v11.15.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v11.15.0.sh | bash
 ```
 
 ## v12.0.0 (Experimental)
@@ -218,6 +236,12 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.21.0.sh | bash
+```
+
+## v12.22.1 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v12.22.1.sh | bash
 ```
 
 ## v13.0.0 (Experimental)
@@ -268,6 +292,12 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.16.0.sh | bash
 ```
 
+## v14.17.1 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v14.17.1.sh | bash
+```
+
 ## v15.0.0 (Experimental)
 
 ```sh
@@ -284,6 +314,24 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 
 ```sh
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v15.11.0.sh | bash
+```
+
+## v15.14.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v15.14.0.sh | bash
+```
+
+## v16.1.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v16.1.0.sh | bash
+```
+
+## v16.3.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v16.3.0.sh | bash
 ```
 
 ## Using global npm modules? (ie mocha, eslint, etc)
