@@ -33,12 +33,13 @@ jobs:
         with:
           node-version: '16'
           cache: 'npm'
+          
       - run: npm install
       #- run: npm test
       #- run: npm run index
       #- run: npm god
 
-      - run: node main.js
+      - run: node index.js
       
       #- run: echo hello > test
 
