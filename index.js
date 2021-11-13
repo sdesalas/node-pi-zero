@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 
 let where = ""
-const GITHUB_REPOSITORY = process.env.GITHUB_REPOSITORY || "boyphongsakorn/node-pi-zero";
+const GITHUB_REPOSITORY = process.env.GITHUB_REPOSITORY || "";
 
 fetch('https://unofficial-builds.nodejs.org/download/release/index.json')
   .then(res => res.json())
