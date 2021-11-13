@@ -1,0 +1,23 @@
+{
+  "name": "pi-zero",
+  "version": "1.0.0",
+  "description": "![Node Pi Zero](https://raw.githubusercontent.com/sdesalas/node-pi-zero/eb55d80c724950137b79dbeded540789dc3cf455/pizero.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyphongsakorn/node-pi-zero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boyphongsakorn/node-pi-zero/issues"
+  },
+  "homepage": "https://github.com/boyphongsakorn/node-pi-zero#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.6"
+  }
+}
