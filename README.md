@@ -336,6 +336,90 @@ $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/insta
 $ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v16.3.0.sh | bash
 ```
 
+## v16.11.1 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v16.11.1.sh | bash
+```
+
+## v16.20.2 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v16.20.2.sh | bash
+```
+
+## v17.0.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v17.0.0.sh | bash
+```
+
+## v17.9.1 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v17.9.1.sh | bash
+```
+
+## v18.0.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v18.0.0.sh | bash
+```
+
+## v18.10.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v18.10.0.sh | bash
+```
+
+## v18.19.1 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v18.19.1.sh | bash
+```
+
+## v19.0.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v19.0.0.sh | bash
+```
+
+## v19.9.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v19.9.0.sh | bash
+```
+
+## v20.0.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v20.0.0.sh | bash
+```
+
+## v20.8.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v20.8.0.sh | bash
+```
+
+## v20.11.1 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v20.11.1.sh | bash
+```
+
+## v21.0.0 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v21.0.0.sh | bash
+```
+
+## v21.6.2 (Experimental)
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v21.6.2.sh | bash
+```
+
 ## Using global npm modules? (ie mocha, eslint, etc)
 
 Add the following to the end of your `~/.profile` file:
